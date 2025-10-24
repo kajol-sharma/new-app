@@ -1,1 +1,1 @@
-export const PRODUCT_API = 'https://mydummyapi.com'
+export const PRODUCT_API = 'https://outspokenly-unindulged-jenine.ngrok-free.dev/product/details/';

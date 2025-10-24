@@ -5,7 +5,7 @@ import headerData from "./headerData";
 
 export default function Header() {
   return (
-    <header className="sticky top-0 z-50 flex flex-col md:flex-row items-center justify-between bg-white border-b border-gray-100 shadow-sm px-6 py-4 md:px-16">
+    <header className=" top-0 z-50 flex flex-col md:flex-row items-center justify-between bg-white border-b border-gray-100 shadow-sm px-6 py-4 md:px-16">
       <div className="text-[1.8rem] font-bold text-[#ff4da6] tracking-tight mb-3 md:mb-0">
         <Link href="/" className="no-underline hover:opacity-90">
           {headerData.logoText}
