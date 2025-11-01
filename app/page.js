@@ -2,18 +2,18 @@ import About from "./(mainPage)/about/page";
 import Footer from "./(mainPage)/footer/page";
 import Header from "./(mainPage)/header/page";
 import CategoryPage from "./(mainPage)/categories/page";
-import MainProducts from "./(mainPage)/mainProducts/page";
-import Carousel from "./(mainPage)/carousel/page";
+import PunnyadharaProducts from "./(mainPage)/mainProducts/page";
+import MainCarousel from "./(mainPage)/mainCarousel/page";
 
 export default function Home() {
   return (
     <div>
       <Header />
-      <Carousel/>
-      <About/>
-      <MainProducts/>
-      <CategoryPage/>
-      <Footer/>
+      <MainCarousel/>
+      <PunnyadharaProducts />
+      <About />
+      <CategoryPage />
+      <Footer />
     </div>
   );
 }

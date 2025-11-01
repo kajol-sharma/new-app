@@ -1,4 +1,4 @@
-export async function productFetch(url, data) {
+export async function dataFetch(url, data) {
     try {
         const response = await fetch(url, {
             method: 'POST',
